@@ -33,7 +33,8 @@ public class HibernateDemo {
 			for (Employee emp : employees) {
 				System.out.println(emp);
 			}
-
+			
+			System.out.println("Done!");
 			session.getTransaction().commit();
 
 		} catch (Exception e) {
